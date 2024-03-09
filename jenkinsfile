@@ -28,7 +28,7 @@ pipeline{
                     expression { SOURCE_BRANCH == 'other_branch' }
             }
             steps {
-                echo "Merging branch is <other_branch>"
+                echo "Merging branch is <other_branch.....>"
                 script {
                     gv.function()
                     echo "Receiving branch is <dev>"
